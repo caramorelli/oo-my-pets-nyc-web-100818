@@ -3,6 +3,7 @@ class Owner
   attr_reader :species
   attr_accessor :pets, :cat, :fish, :dog, :name
   
+  
   @@all = []
   
   def initialize(name)
